@@ -1,0 +1,18 @@
+# KiCad files
+# export files for BOM
+	*.csv
+	*.tsv
+	*.xml
+# backup files
+	*.bak
+# local project settings
+	*.kicad_prl
+	fp-info-cache
+# Other
+	.DS_Store
+
+Electronic Design/.DS_Store
+Electronic Design/RP2040 Footprint and symbol/.DS_Store
+Electronic Design/SAO Demo Controller V1 Design Files KiCAD 8/.DS_Store
+Electronic Design/SAO Demo Controller V1 Manufacturing/.DS_Store
+.DS_Store
