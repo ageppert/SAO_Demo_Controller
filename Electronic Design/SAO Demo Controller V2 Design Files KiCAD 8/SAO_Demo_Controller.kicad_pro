@@ -522,7 +522,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "SAO_Demo_Controller.net",
-      "plot": "../SAO Demo Controller V1 Manufacturing/",
+      "plot": "../SAO Demo Controller V2 Manufacturing/",
       "pos_files": "SAO_Core4_V0.1_MANUFACTURING(QTY5)/",
       "specctra_dsn": "",
       "step": "",
@@ -733,6 +733,36 @@
           "label": "Insert",
           "name": "Insert",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "QTY",
+          "name": "QTY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART-NUMBER",
+          "name": "PART-NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "H",
+          "name": "H",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OPERATION-FORCE",
+          "name": "OPERATION-FORCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DATASHEET-URL",
+          "name": "DATASHEET-URL",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -779,7 +809,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "SAO_Core4_V0.1_RENDERS_SCHEMATIC/",
+    "plot_directory": "../SAO Demo Controller V2 Schematic and Renders/",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

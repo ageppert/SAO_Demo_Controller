@@ -8,6 +8,10 @@ CAUTION: Do not plug this into your host badge and USB-C at the same time!!!
 
 Follow this project at: https://hackaday.io/project/198034-sao-demo-controller 
 
+Hardware Version 2.0 
+
+<img src="Images/SAO_Demo_Controller V2 Render Front crop.png" height="250">
+
 Hardware Version 1.0 
 
 <img src="Images/SAO Demo Controller V1 front.jpeg" height="250">
