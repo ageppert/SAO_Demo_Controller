@@ -525,7 +525,7 @@
       "plot": "../SAO Demo Controller V2 Manufacturing/",
       "pos_files": "SAO_Core4_V0.1_MANUFACTURING(QTY5)/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../SAO Demo Controller V2 Mechanical CAD/SAO_Demo_Controller.step",
       "svg": "",
       "vrml": ""
     },
