@@ -6921,6 +6921,20 @@
 		)
 		(uuid "a3181a5b-d6c1-4ded-9b89-c66a1bf98fee")
 	)
+	(text "FOR DEDICATED LIPO ONLY USE\n\nIf you want to only use the 1S LiPo and USB\npower options (likely for Etch sAO Sketch\nor similar SAOs) remove ALL diodes D1-4.\n\nSolder bridge only the D3 position footpring.\nThese changes will safely provide more runtime\nand full use of the LiPo capacity.\n\nUSB Power will still provide direct power to\nthe RP2040-Zero, and power to the Main Switch\nvia the LiPo charging IC."
+		(exclude_from_sim no)
+		(at 14.224 163.068 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 2 6 1)
+			)
+			(justify left)
+		)
+		(uuid "a349d934-afb3-4462-beb9-0f92237caffd")
+	)
 	(text "INPUT\nVOLTAGE\nMONITOR"
 		(exclude_from_sim no)
 		(at 222.504 64.262 0)
@@ -7079,9 +7093,9 @@
 		)
 		(uuid "cb3c183d-c868-4f88-8316-d4eb5e393227")
 	)
-	(text "0.3A, 0.___V\n0.5A, 0.___V\n1.0A, 0.450V"
+	(text "0.3A, 0.30V Drop\n0.5A, 0.35V Drop\n1.0A, 0.45V Drop"
 		(exclude_from_sim no)
-		(at 195.326 34.036 0)
+		(at 191.77 33.782 0)
 		(effects
 			(font
 				(size 1.27 1.27)
