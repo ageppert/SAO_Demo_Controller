@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "SAO Demo Controller, Micro Badge Development Board")
-		(date "2026-08-15")
+		(date "2026-08-26")
 		(rev "3.0, 3.1, 3.2")
 		(company "Design by Andy Geppert @ www.MachineIdeas.com")
 		(comment 4 "All non-polarized capacitors are X7R or X5R ceramic unless otherwise noted.")
@@ -7021,7 +7021,7 @@
 		)
 		(uuid "b60f75bf-8463-4342-ac98-049086b679e8")
 	)
-	(text "JP5: SAO GPIO1 Select\n1-2 is RP2040 GP1 or SAO in\n2-3 is RP2040 GP26/ADC0"
+	(text "JP4: SAO GPIO1 Select\n1-2 is RP2040 GP1 or SAO in\n2-3 is RP2040 GP26/ADC0"
 		(exclude_from_sim no)
 		(at 255.524 132.842 0)
 		(effects
@@ -7104,7 +7104,7 @@
 		)
 		(uuid "d3e67a20-0a16-4130-906e-24bbcef7ab58")
 	)
-	(text "JP6: SAO GPIO2 Select\n1-2 is RP2040 GP0 or SAO in\n2-3 is RP2040 GP27/ADC1"
+	(text "JP5: SAO GPIO2 Select\n1-2 is RP2040 GP0 or SAO in\n2-3 is RP2040 GP27/ADC1"
 		(exclude_from_sim no)
 		(at 255.778 155.702 0)
 		(effects
@@ -7162,6 +7162,18 @@
 			(justify left bottom)
 		)
 		(uuid "e6faec29-64d3-4801-bab5-03eb2647b765")
+	)
+	(text "SAO Core4 V2 requires JP5:2-3 closed\nto use GP27 as input for core pulse sense."
+		(exclude_from_sim no)
+		(at 255.524 165.862 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 194 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e943e76f-dd39-4ae1-9c12-841a9ad12218")
 	)
 	(text "GPIO2 SELECT"
 		(exclude_from_sim no)
